@@ -197,11 +197,11 @@ The libajantv2 repository can be opened as a directory in Qt Creator and built w
 ## Building the Kernel Module Driver (Linux) <a name="building-kernel-module"></a>
 
 ### Prerequisites
-Before building the driver please ensure that you have installed the Linux kernel headers for your current distro:
+Before building the driver please ensure that you have installed the Linux kernel headers and build dependencies for your current distro:
 
 #### Ubuntu 20.04/22.04
 ```
-$ sudo apt install -y linux-headers-$(uname -r) linux-tools-$(uname -r)
+$ sudo apt install -y linux-headers-$(uname -r) linux-tools-$(uname -r) cmake gcc-12
 ```
 
 #### CentOS7
